@@ -1,6 +1,6 @@
 # Required variables
 PI = 3.14159
-radius = int(input())
+radius = float(input())
 
 # Create the function to calculate the area of a circle
 def calculate_circle_area(PI, radius):
