@@ -88,10 +88,10 @@ def select_option(option: int, contact_book: dict) -> bool:
         case 5:
             list_all_contacts(contact_book)
         case 6:
-            return False  # Signal to exit
+            return False
         case _:
             print("Invalid choice. Please try again.")
-    return True  # Continue loop
+    return True
 
 is_program_open = True
 contact_book = {}
