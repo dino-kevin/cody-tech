@@ -9,7 +9,7 @@ def check_sets(set1, set2):
     is_proper_subset = set1 < set2
 
     # Check if set2 is a proper superset of set1
-    is_proper_superset = set2.ispropersuperset(set1)
+    is_proper_superset = set2 > set1
 
     # Return a dictionary containing the results
     return {
