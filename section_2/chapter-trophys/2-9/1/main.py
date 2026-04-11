@@ -1,4 +1,4 @@
-def calculate_average_score(scores):
+def calculate_average_score(scores:list):
     # Write code here
     if scores:
         total_score = sum(scores)
